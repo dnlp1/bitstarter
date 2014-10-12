@@ -1,6 +1,6 @@
 var express = require('express')
 var app = express();
-var bufferTest = fs.readFileSync(index.html);
+var bufferTest = fs.readFileSync('index.html');
 //var bufString = buffer.toString();
 
 app.set('port', (process.env.PORT || 5000))
